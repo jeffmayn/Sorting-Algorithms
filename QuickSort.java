@@ -4,6 +4,7 @@ public class QuickSort {
         System.out.println("Unsorted Array:");
         printArray(A);
 
+        // pivot is set to 0, feel free to change the pivot.
         QuickSort(A, 0, A.length-1);
         System.out.println("\nSorted Array:");
         printArray(A);
