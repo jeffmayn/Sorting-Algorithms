@@ -10,8 +10,8 @@ public class QuickSort {
 
         // Print asymptotic notation for the algorithm.
         System.out.println("\n:: Running time of QuickSort ::");
-        System.out.println("Best case: O(n log(n))\n" +
-                "Average case: T(n log(n))\n" +
+        System.out.println("Best case: Ω(n log(n))\n" +
+                "Average case: Θ(n log(n))\n" +
                 "Worst case: O(n log(n))");
     }
 
