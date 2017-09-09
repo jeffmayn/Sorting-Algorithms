@@ -9,8 +9,8 @@ public class Main {
 
         // Print asymptotic notation for the algorithm.
         System.out.println("\n\n:: Running time of insertion sort ::");
-        System.out.println("Best case: O(n)\n" +
-                            "Average case: O(n^2)\n" +
+        System.out.println("Best case: Ω(n)\n" +
+                            "Average case: Θ(n^2)\n" +
                             "Worst case: O(n^2)");
     }
 
