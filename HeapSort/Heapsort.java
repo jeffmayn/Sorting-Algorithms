@@ -3,14 +3,13 @@ import java.util.Scanner;
 
 public class Heapsort {
     public static void main(String[] args) {
+	/*
+	To run heapsort with either max or min priority queue, just
+	comment out the one, and enable the other.
+	 */
 
-    		/*
-		To run heapsort with either max or min priority queue, just
-		comment out the one, and enable the other.
-		 */
-
-			minPQ pq = new minPQHeap(1000);
-			//maxPQ pq = new maxPQHeap(1000);
+	minPQ pq = new minPQHeap(1000);
+	//maxPQ pq = new maxPQHeap(1000);
 
 	int n = 0;
 	int i;
@@ -19,9 +18,7 @@ public class Heapsort {
 	    i = sc.nextInt();
 	    n++;
 	    pq.insert(new Element(i,null));
-
        }
-
 	while (n > 0){
 
 		/*
