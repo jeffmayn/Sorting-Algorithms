@@ -20,7 +20,6 @@ public class Heapsort {
 	    pq.insert(new Element(i,null));
        }
 	while (n > 0){
-
 		/*
 		To run heapsort with either max or min priority queue, just
 		comment out the one, and enable the other.
