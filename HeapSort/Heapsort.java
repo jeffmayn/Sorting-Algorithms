@@ -26,7 +26,7 @@ public class Heapsort {
 		 */
 
 	    System.out.println(pq.extractMin().key);
-		//System.out.println(pq.extractMax().key);
+	    //System.out.println(pq.extractMax().key);
 	    n--;
 	}
    }
