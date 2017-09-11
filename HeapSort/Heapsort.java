@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Heapsort {
     public static void main(String[] args) {
 
-    	/*
+    		/*
 		To run heapsort with either max or min priority queue, just
 		comment out the one, and enable the other.
 		 */
